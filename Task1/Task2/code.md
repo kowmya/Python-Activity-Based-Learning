@@ -1,8 +1,8 @@
-1.Problem statement
+Problem statement:- 
 Water is supplied to different areas over several days, but the quantity supplied may be less than the actual demand. The aim of this program is to analyse area-wise water supply using a nested list (matrix), calculate the shortage of water for each area on each day, compare the distribution levels, and identify the most underserved area.
 The program calculates the total demand, total supply, water shortage, and shortage percentage for each area.
 
-2. Algorithm
+ Algorithm:-
 1. Start the program.
 2. Read the number of areas and number of days.
 3. Input the water demand and actual water supply for each area on each day.
@@ -19,7 +19,7 @@ The program calculates the total demand, total supply, water shortage, and short
 9. Display the results.
 10. Stop the program.
 
-3. Flowchart
+Flowchart :-
     Start
 Input number of areas anddays
 Input demand and supply foreach area and day
@@ -31,7 +31,7 @@ Identify the most underservedarea
 Display area-wise results
       Stop
       
-4. Sample input
+   Sample input :-
 Enter number of areas: 3
 Enter number of days: 2
 
@@ -53,7 +53,7 @@ Day 1 supply (litres): 50
 Day 2 demand (litres): 100
 Day 2 supply (litres): 60
 
-5. Sample output
+ Sample output :-
 
 Area 1
 Total Demand: 220.00 litres
@@ -77,5 +77,5 @@ Most Underserved Area: Area 3
 Shortage Percentage: 38.89%
 
 
-6.Conclusion
+ Conclusion:- 
 The Water Distribution Fairness Analysis program uses nested lists, loops, arithmetic operations, and conditional statements to compare water demand and supply across different areas and days. It calculates shortages and identifies Area 3 as the most underserved area in the sample data. This analysis can help authorities identify areas that need better water distribution.
