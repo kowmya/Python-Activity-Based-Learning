@@ -1,11 +1,17 @@
 
-celsius = float(input("Enter temperature in Celsius: "))
-fahrenheit = (celsius * 9/5) + 32
-print(f"Temperature in Fahrenheit: {fahrenheit:.2f}°F")
 
-if celsius >= 40:
-    print("Warning: Extreme Heatwave Conditions!")
-elif celsius >= 30:
-    print("Weather is Hot and Sunny.")
-else:
-    print("Weather is pleasant.")
+data = [[100, 5], [200, 30], [150, 10]]
+limit = 10
+
+for i in range(len(data)):
+    total = data[i][0]
+    defective = data[i][1]
+    percent = defective / total * 100
+
+    print("Batch", i + 1)
+    print("Defect percentage:", round(percent, 2))
+
+    if percent > limit:
+        print("Quality Failed")
+    else:
+        print("Quality Passed")
